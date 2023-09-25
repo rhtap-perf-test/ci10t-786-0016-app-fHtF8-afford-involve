@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-obry
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/ci10t-786-0016-tenant/ci10t-786-0016-app/devfile-sample-obry@sha256:a2f3908bdb8b19d506ee599250e4dabf0859150f82cf0e91cf41e5ec789a28ec
         name: my-nodejs
         ports:
         - containerPort: 3001
